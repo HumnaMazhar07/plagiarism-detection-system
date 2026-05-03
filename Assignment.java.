@@ -1,0 +1,17 @@
+package application;
+
+public class Assignment {
+	int similarity;
+	int id;
+    String student;
+    String text;
+    
+
+    Assignment(int i, String s, String t) {
+        id = i;
+        student = s;
+        text = t;
+        
+    }
+
+}
